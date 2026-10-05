@@ -1,0 +1,18 @@
+{
+    "name": "survos/folio",
+    "type": "library",
+    "description": "Framework-free SQLite folio metadata reader and migration adapter.",
+    "license": "MIT",
+    "require": {
+        "php": "^8.5",
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*",
+        "survos/data-contracts": "^2.5",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Survos\\Folio\\": "src/"
+        }
+    }
+}
